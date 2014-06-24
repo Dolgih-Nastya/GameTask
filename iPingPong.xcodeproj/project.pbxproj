@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		31015B4D1951A7EA0037E884 /* incMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31015B4B1951A7EA0037E884 /* incMainViewController.m */; };
+		31015B4E1951A7EA0037E884 /* incMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 31015B4C1951A7EA0037E884 /* incMainViewController.xib */; };
+		31015B521951A9330037E884 /* incSocialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31015B501951A9330037E884 /* incSocialViewController.m */; };
+		31015B531951A9330037E884 /* incSocialViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 31015B511951A9330037E884 /* incSocialViewController.xib */; };
+		31015B551951AA0E0037E884 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31015B541951AA0E0037E884 /* Social.framework */; };
+		31015B571951AA220037E884 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31015B561951AA220037E884 /* MessageUI.framework */; };
+		31015B5B1951B35B0037E884 /* incLevelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31015B591951B35B0037E884 /* incLevelViewController.m */; };
+		31015B5C1951B35B0037E884 /* incLevelViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 31015B5A1951B35B0037E884 /* incLevelViewController.xib */; };
 		F519FC16194F158100D3C5FB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F519FC15194F158100D3C5FB /* Foundation.framework */; };
 		F519FC18194F158100D3C5FB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F519FC17194F158100D3C5FB /* CoreGraphics.framework */; };
 		F519FC1A194F158100D3C5FB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F519FC19194F158100D3C5FB /* UIKit.framework */; };
@@ -19,6 +27,13 @@
 		F519FC31194F158100D3C5FB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F519FC19194F158100D3C5FB /* UIKit.framework */; };
 		F519FC39194F158100D3C5FB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F519FC37194F158100D3C5FB /* InfoPlist.strings */; };
 		F519FC3B194F158100D3C5FB /* iPingPongTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F519FC3A194F158100D3C5FB /* iPingPongTests.m */; };
+		F519FC47194F15F400D3C5FB /* incStartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F519FC45194F15F400D3C5FB /* incStartViewController.m */; };
+		F519FC48194F15F400D3C5FB /* incStartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F519FC46194F15F400D3C5FB /* incStartViewController.xib */; };
+		F519FC4D194F161200D3C5FB /* incGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F519FC4B194F161200D3C5FB /* incGameViewController.m */; };
+		F519FC4E194F161200D3C5FB /* incGameViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F519FC4C194F161200D3C5FB /* incGameViewController.xib */; };
+		F567032E194F26C800BD345F /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F567032D194F26C800BD345F /* AudioToolbox.framework */; };
+		F5B302C4194F365C0048F5F6 /* aplause10.wav in Resources */ = {isa = PBXBuildFile; fileRef = F5B302C3194F365C0048F5F6 /* aplause10.wav */; };
+		F5B302C6194F36620048F5F6 /* clap.wav in Resources */ = {isa = PBXBuildFile; fileRef = F5B302C5194F36620048F5F6 /* clap.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +47,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		31015B4A1951A7EA0037E884 /* incMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = incMainViewController.h; sourceTree = "<group>"; };
+		31015B4B1951A7EA0037E884 /* incMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = incMainViewController.m; sourceTree = "<group>"; };
+		31015B4C1951A7EA0037E884 /* incMainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = incMainViewController.xib; sourceTree = "<group>"; };
+		31015B4F1951A9330037E884 /* incSocialViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = incSocialViewController.h; sourceTree = "<group>"; };
+		31015B501951A9330037E884 /* incSocialViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = incSocialViewController.m; sourceTree = "<group>"; };
+		31015B511951A9330037E884 /* incSocialViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = incSocialViewController.xib; sourceTree = "<group>"; };
+		31015B541951AA0E0037E884 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		31015B561951AA220037E884 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		31015B581951B35B0037E884 /* incLevelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = incLevelViewController.h; sourceTree = "<group>"; };
+		31015B591951B35B0037E884 /* incLevelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = incLevelViewController.m; sourceTree = "<group>"; };
+		31015B5A1951B35B0037E884 /* incLevelViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = incLevelViewController.xib; sourceTree = "<group>"; };
 		F519FC12194F158100D3C5FB /* iPingPong.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iPingPong.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F519FC15194F158100D3C5FB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		F519FC17194F158100D3C5FB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -48,6 +74,15 @@
 		F519FC36194F158100D3C5FB /* iPingPongTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iPingPongTests-Info.plist"; sourceTree = "<group>"; };
 		F519FC38194F158100D3C5FB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F519FC3A194F158100D3C5FB /* iPingPongTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iPingPongTests.m; sourceTree = "<group>"; };
+		F519FC44194F15F400D3C5FB /* incStartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = incStartViewController.h; sourceTree = "<group>"; };
+		F519FC45194F15F400D3C5FB /* incStartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = incStartViewController.m; sourceTree = "<group>"; };
+		F519FC46194F15F400D3C5FB /* incStartViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = incStartViewController.xib; sourceTree = "<group>"; };
+		F519FC4A194F161200D3C5FB /* incGameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = incGameViewController.h; sourceTree = "<group>"; };
+		F519FC4B194F161200D3C5FB /* incGameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = incGameViewController.m; sourceTree = "<group>"; };
+		F519FC4C194F161200D3C5FB /* incGameViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = incGameViewController.xib; sourceTree = "<group>"; };
+		F567032D194F26C800BD345F /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		F5B302C3194F365C0048F5F6 /* aplause10.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = aplause10.wav; sourceTree = "<group>"; };
+		F5B302C5194F36620048F5F6 /* clap.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = clap.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +90,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31015B571951AA220037E884 /* MessageUI.framework in Frameworks */,
+				31015B551951AA0E0037E884 /* Social.framework in Frameworks */,
+				F567032E194F26C800BD345F /* AudioToolbox.framework in Frameworks */,
 				F519FC18194F158100D3C5FB /* CoreGraphics.framework in Frameworks */,
 				F519FC1A194F158100D3C5FB /* UIKit.framework in Frameworks */,
 				F519FC16194F158100D3C5FB /* Foundation.framework in Frameworks */,
@@ -74,6 +112,47 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		311880CD1956B75300FF8B18 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				311880D01956B7A300FF8B18 /* Level */,
+				311880CF1956B79100FF8B18 /* Social */,
+				311880CE1956B77C00FF8B18 /* Main */,
+				F519FC49194F15FA00D3C5FB /* Game */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		311880CE1956B77C00FF8B18 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				31015B4A1951A7EA0037E884 /* incMainViewController.h */,
+				31015B4B1951A7EA0037E884 /* incMainViewController.m */,
+				31015B4C1951A7EA0037E884 /* incMainViewController.xib */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		311880CF1956B79100FF8B18 /* Social */ = {
+			isa = PBXGroup;
+			children = (
+				31015B4F1951A9330037E884 /* incSocialViewController.h */,
+				31015B501951A9330037E884 /* incSocialViewController.m */,
+				31015B511951A9330037E884 /* incSocialViewController.xib */,
+			);
+			name = Social;
+			sourceTree = "<group>";
+		};
+		311880D01956B7A300FF8B18 /* Level */ = {
+			isa = PBXGroup;
+			children = (
+				31015B581951B35B0037E884 /* incLevelViewController.h */,
+				31015B591951B35B0037E884 /* incLevelViewController.m */,
+				31015B5A1951B35B0037E884 /* incLevelViewController.xib */,
+			);
+			name = Level;
+			sourceTree = "<group>";
+		};
 		F519FC09194F158100D3C5FB = {
 			isa = PBXGroup;
 			children = (
@@ -96,6 +175,9 @@
 		F519FC14194F158100D3C5FB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				31015B561951AA220037E884 /* MessageUI.framework */,
+				31015B541951AA0E0037E884 /* Social.framework */,
+				F567032D194F26C800BD345F /* AudioToolbox.framework */,
 				F519FC15194F158100D3C5FB /* Foundation.framework */,
 				F519FC17194F158100D3C5FB /* CoreGraphics.framework */,
 				F519FC19194F158100D3C5FB /* UIKit.framework */,
@@ -107,6 +189,8 @@
 		F519FC1B194F158100D3C5FB /* iPingPong */ = {
 			isa = PBXGroup;
 			children = (
+				F5670333194F289B00BD345F /* Resources */,
+				311880CD1956B75300FF8B18 /* Controllers */,
 				F519FC24194F158100D3C5FB /* incAppDelegate.h */,
 				F519FC25194F158100D3C5FB /* incAppDelegate.m */,
 				F519FC27194F158100D3C5FB /* Images.xcassets */,
@@ -142,6 +226,28 @@
 				F519FC37194F158100D3C5FB /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F519FC49194F15FA00D3C5FB /* Game */ = {
+			isa = PBXGroup;
+			children = (
+				F519FC44194F15F400D3C5FB /* incStartViewController.h */,
+				F519FC45194F15F400D3C5FB /* incStartViewController.m */,
+				F519FC46194F15F400D3C5FB /* incStartViewController.xib */,
+				F519FC4A194F161200D3C5FB /* incGameViewController.h */,
+				F519FC4B194F161200D3C5FB /* incGameViewController.m */,
+				F519FC4C194F161200D3C5FB /* incGameViewController.xib */,
+			);
+			name = Game;
+			sourceTree = "<group>";
+		};
+		F5670333194F289B00BD345F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F5B302C5194F36620048F5F6 /* clap.wav */,
+				F5B302C3194F365C0048F5F6 /* aplause10.wav */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -220,7 +326,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31015B531951A9330037E884 /* incSocialViewController.xib in Resources */,
 				F519FC20194F158100D3C5FB /* InfoPlist.strings in Resources */,
+				F519FC4E194F161200D3C5FB /* incGameViewController.xib in Resources */,
+				F5B302C4194F365C0048F5F6 /* aplause10.wav in Resources */,
+				F5B302C6194F36620048F5F6 /* clap.wav in Resources */,
+				31015B4E1951A7EA0037E884 /* incMainViewController.xib in Resources */,
+				F519FC48194F15F400D3C5FB /* incStartViewController.xib in Resources */,
+				31015B5C1951B35B0037E884 /* incLevelViewController.xib in Resources */,
 				F519FC28194F158100D3C5FB /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -241,6 +354,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				F519FC22194F158100D3C5FB /* main.m in Sources */,
+				31015B5B1951B35B0037E884 /* incLevelViewController.m in Sources */,
+				F519FC4D194F161200D3C5FB /* incGameViewController.m in Sources */,
+				F519FC47194F15F400D3C5FB /* incStartViewController.m in Sources */,
+				31015B4D1951A7EA0037E884 /* incMainViewController.m in Sources */,
+				31015B521951A9330037E884 /* incSocialViewController.m in Sources */,
 				F519FC26194F158100D3C5FB /* incAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -438,6 +556,7 @@
 				F519FC40194F158100D3C5FB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F519FC41194F158100D3C5FB /* Build configuration list for PBXNativeTarget "iPingPongTests" */ = {
 			isa = XCConfigurationList;
@@ -446,6 +565,7 @@
 				F519FC43194F158100D3C5FB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
