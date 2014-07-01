@@ -125,6 +125,10 @@
     
 }
 
+- (IBAction)backButtonDidClick:(id)sender
+{
+    [self.navigationController popViewControllerAnimated:YES];
+}
 - (IBAction)sliderValueDidChanged:(UISlider *)sender
 {
     self.level = (Level) (sender.value + 0.5);

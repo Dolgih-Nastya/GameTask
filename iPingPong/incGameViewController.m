@@ -228,9 +228,9 @@
 - (void) setImadesWidth:(NSInteger)width
 {
     self.platform_Player1.frame =  CGRectMake(self.platform_Player1.frame.origin.x,
-                                              self.platform_Player1.frame.origin.y, width, 9);
+                                              self.platform_Player1.frame.origin.y, width, 33);
     self.platform_Player2.frame =  CGRectMake(self.platform_Player2.frame.origin.x,
-                                              self.platform_Player2.frame.origin.y, width, 9);
+                                              self.platform_Player2.frame.origin.y, width, 33);
 }
 
 - (void)viewDidLoad {
@@ -238,13 +238,13 @@
 	self.gameState = Paused;
 	ballVelocity = CGPointMake(self.ballSpeedX,self.ballSpeedY);
 	
-    /* ДОЛЖНО РАБОТАТЬ
-	NSURL *clapPath = [NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"Aplause10" ofType:@"wav"]];
+  
+	NSURL *clapPath = [NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"aplause10" ofType:@"wav"]];
     AudioServicesCreateSystemSoundID((__bridge CFURLRef)clapPath, &clappingFileID);
     
-    NSURL *volleyPath = [NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"Clap" ofType:@"wav"]];
+    NSURL *volleyPath = [NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"clap" ofType:@"wav"]];
     AudioServicesCreateSystemSoundID((__bridge CFURLRef)volleyPath, &volleyFileID);
-     ДОЛЖНО РАБОТАТЬ */
+    
 	
 	[NSTimer scheduledTimerWithTimeInterval:0.01 target:self selector:@selector(gameLoop) userInfo:nil repeats:YES];
    
